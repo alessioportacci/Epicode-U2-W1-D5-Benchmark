@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral:wght@400;700&display=swap");
+
+body {
+  font-family: roboto;
+}
+
+/* HEADER */
+
+header {
+  background-color: #ffc017;
+  padding: 25px 13%;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+header li:nth-child(5) {
+  color: white;
+  background-color: #191919;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* NAV */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px 13%;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+#nav-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: Spectral;
+
+  width: 650px;
+}
+
+#nav-left h1 {
+  font-size: 90px;
+  margin: 0px 0px;
+}
+
+#nav-left h2 {
+  font-size: 25px;
+  margin: 30px 0px;
+}
+
+#start-reading {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px 35px;
+  border-radius: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+#ms {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+}
+
+#ms svg {
+  position: relative;
+  right: -37%;
+}
+
+/* MAIN */
+
+#trending{
+    padding: 40px 13%;
+    border-bottom: 1px solid lightgrey;
+}
+
+#trending-box{
+    display: flex;
+    flex-direction:row; /* DA CAMBIARE*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#trending-title{
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.trending-sections{
+    display: flex;
+    width: 30%;
+    margin-top:5px
+}
+
+.trending-number{
+    font-size: xx-large;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.trending-div{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.trending-div-icon{
+    display: flex;
+    align-items: center;
+}
+
+.trending-div-icon .round{
+    border-radius: 100%;
+}
+
+.trending-div-icon img{
+    height: 60%;
+    border-radius: 20%;
+}
+
+.trending-author{
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.trending-title{
+    font-weight: bold;
+}
+
+.trending-date{
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.last-in-line{
+    right: 20%;
+}
