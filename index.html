@@ -20,7 +20,7 @@
           <li>Memebership</li>
           <li>Write</li>
           <li>Sign In</li>
-          <li>Get started</li>
+          <li class="get-started">Get started</li>
         </ul>
       </div>
     </header>
@@ -9521,5 +9521,21 @@
         </section>
       </article>
     </main>
+
+    <script>
+      const header = document.querySelector("header")
+      const getStarted = document.querySelector(".get-started")
+
+      window.onscroll = function (e) {
+        if (window.pageYOffset > 400) {
+          header.classList.add("header2")
+          getStarted.classList.add("navbutton")
+        } else {
+          header.classList.remove("header2")
+          getStarted.classList.remove("navbutton")
+        }
+        console.log(window.pageYOffset)
+      }
+    </script>
   </body>
 </html>

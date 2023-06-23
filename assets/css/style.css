@@ -18,6 +18,10 @@ header {
   font-weight: 300;
 }
 
+.header2{
+    background-color: white;
+}
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -34,11 +38,15 @@ header li {
   cursor: pointer;
 }
 
-header li:nth-child(5) {
+.get-started {
   color: white;
   background-color: #191919;
   padding: 10px 20px;
   border-radius: 20px;
+}
+
+.navbutton{
+    background-color: #1a8917;
 }
 
 /* NAV */
