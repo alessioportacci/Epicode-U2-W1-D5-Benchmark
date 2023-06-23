@@ -167,3 +167,52 @@ nav {
 .last-in-line{
     right: 20%;
 }
+
+#main-section{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+#section-left{
+    width: 90%;
+}
+
+#section-right{
+    margin: 20px 30% 20px 0px;
+}
+
+#section-right > p:first-child{
+    font-weight: bold;
+}
+
+#section-right-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section-right-buttons button{
+    background-color: rgba(242, 242, 242, 1);
+    margin: 5px;
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 50px;
+    padding: 9px
+}
+
+#section-right a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#section-right ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+#section-right li {
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 3px;
+}
